@@ -32,7 +32,7 @@ while open.list != empty:
 ```
 ---
 
-## Solution
+## Solution (Normal)
 
 The solution implements uninformed search as 
 - [Bread First Search](breadth.py)
@@ -45,3 +45,16 @@ The solution implements uninformed search as
 ### Depth First Search Example
 
 <img alt="Screenshot of DFS Solution in Pycharm Terminal" src="./solution/dfs_solution.png">
+
+## Solution (Heuristic-Misplaced tiles)
+
+The solution implements heuristic search with heuristic being the number of misplaced tiles
+- [Breadth First Search](./heuristic/misplaced_tile/breadth.py)
+- [Depth First Search](./heuristic/misplaced_tile/depth.py)
+
+### Breadth First Search Example
+
+<img alt="Screenshot of BFS Solution in Pycharm Terminal" src="./heuristic/misplaced_tile/solution/breadth.png">
+
+### Depth First Search Example
+<img alt="Screenshot of BFS Solution in Pycharm Terminal" src="./heuristic/misplaced_tile/solution/depth.png">
